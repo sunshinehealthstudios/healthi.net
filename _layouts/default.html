@@ -7,7 +7,6 @@
     <div class="imageWrapper">
             <div class="headerBackground">
                 <div class="container">
-                    {% include header.html %}
                     <div class="iphonePreview">
 
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 0 0" style="position: absolute;">
@@ -41,20 +40,11 @@
                             <h1 class="appName">
                                 {{ site.app_name }}
                             </h1>
-                            <h2 class="appPrice">
-                                {{ site.app_price }}
-                            </h2>
                         </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
                                 {{ site.app_description }}
                             </p>
-                        </div>
-                        <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
-                            {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
                         </div>
                     </div>
                     {% include features.html %}

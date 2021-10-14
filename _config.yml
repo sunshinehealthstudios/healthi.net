@@ -11,18 +11,20 @@ presskit_download_link                    : https://healthi.net                 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Healthi                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : healthi                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Coming soon
+app_description                           : COMING SOON
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+app_logo                                  : assets/logo.png
 
 
 
 # Information About Yourself
 your_name                                 : Sunshine Health Studios                                
 your_link                                 : https://healthi.net
-your_city                                 : the United States                                
+your_city                                 :
 email_address                             : hello@healthi.net
 facebook_username                         :                                    
 instagram_username                        : 
@@ -36,7 +38,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Choose Your Plan
-    description                           : With some information from you, iTrackBites will recommend a personalized weight loss plan that’s been proven to show results based on your goals and your body type.
+    description                           : With some information from you, Healthi will recommend a personalized weight loss plan that’s been proven to show results based on your goals and your body type.
     fontawesome_icon_name                 : magic
     
   - title                                 : Track Your Food
@@ -44,7 +46,7 @@ features                                  :
     fontawesome_icon_name                 : mobile
 
   - title                                 : Lose Your Weight
-    description                           : With consistent tracking, support from the iTrackBites community and tasty recipes, you can join the millions of success stories and achieve your weight loss goals.
+    description                           : With consistent tracking, support from the Healthi community and tasty recipes, you can join the millions of success stories and achieve your weight loss goals.
     fontawesome_icon_name                 : play-circle
 
 # Theme Settings
@@ -52,7 +54,7 @@ topbar_color                              : "#ffffff"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#444444"
 
-cover_image                               : https://itrackbites.com/wp-content/uploads/2019/12/Hero-breakout-Breakout-1.png                    # Replace with alternative image path or image URL.
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#ffffff"
 cover_overlay_transparency                : 0.8
 
@@ -60,7 +62,7 @@ device_color                              : white                               
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "#C6DF89"
 
 app_title_color                           : "#555555"
 app_price_color                           : "#555555"
@@ -69,11 +71,11 @@ app_description_color                     : "#666666"
 feature_title_color                       : "#444444"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#ABD7E9"
+feature_icons_background_color            : "#F9F9F9"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color             : "#ABD7E9"
+social_icons_background_color             : "#F9F9F9"
 
 footer_text_color                         : "#666666"
 
